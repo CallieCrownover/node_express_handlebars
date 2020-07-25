@@ -1,0 +1,31 @@
+/* * {
+    font-family: 'Patrick Hand', cursive;
+    text-align: center;
+}; */
+
+body {
+    font-family: 'Patrick Hand', cursive;
+    background-image: url("background_burger-01.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.jumbotron {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-size: 52px;
+}
+
+
+.intro {
+    color: #cdbfe3;
+    width: 400px;
+}
+
+/* img {
+    vertical-align: middle;
+    width: 200px;
+    padding: 10px
+} */
+
