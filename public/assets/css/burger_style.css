@@ -24,12 +24,6 @@ img {
   padding-top: 40px;
 }
 
-.jumbotron {
-  /* padding-bottom: 0px;
-    margin-bottom: 0px;
-    font-size: 52px; */
-  text-align: center;
-}
 
 .intro {
   width: 400px;
@@ -63,4 +57,5 @@ img {
 .form-group {
   align-content: center;
   justify-content: center;
+
 }
