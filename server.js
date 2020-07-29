@@ -3,7 +3,7 @@ var express = require("express");
 var bodyParser = require("body-parser");
 var methodOverride = require("method-override");
 
-var port = process.env.port || 3006;
+var PORT = process.env.PORT || 3006;
 
 var app = express();
 
@@ -21,12 +21,12 @@ var exphbs = require("express-handlebars");
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
-// Import routes and give the server access to them.
+// ImPORT routes and give the server access to them.
 var routes = require("./controllers/burgers_controller.js");
 
 app.use("/", routes);
 
-app.listen(port, function() {
+app.listen(PORT, function() {
 
-    console.log("Server listening on: http://locahost:" + port);
+    console.log("Server listening on: http://locahost:" + PORT);
 });
