@@ -29,6 +29,11 @@ img {
   width: 400px;
 }
 
+label {
+  text-align: center;
+}
+
+
 .panel {
   background-image: url("../images/chalkboard.png");
   background-position: center;
